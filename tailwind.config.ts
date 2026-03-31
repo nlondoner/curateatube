@@ -12,8 +12,18 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      nunito: ['Nunito', 'sans-serif'],
+    },
     extend: {
       colors: {
+        pastel: {
+          blue: "hsl(var(--pastel-blue))",
+          mint: "hsl(var(--pastel-mint))",
+          pink: "hsl(var(--pastel-pink))",
+          lavender: "hsl(var(--pastel-lavender))",
+          yellow: "hsl(var(--pastel-yellow))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
